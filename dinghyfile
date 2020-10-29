@@ -1,0 +1,25 @@
+{
+  "application": "helloworld",
+  "pipelines": [
+    {
+      "application": "helloworld",
+      "name": "step 1. simple pipeline (gitops)",
+      "keepWaitingPipelines": false,
+      "lastModifiedBy": "away168",
+      "limitConcurrent": true,
+      "spelEvaluator": "v4",
+      "stages": [
+        {
+          "isNew": true,
+          "name": "Wait - updated Oct 26th",
+          "refId": "1",
+          "requisiteStageRefIds": [],
+          "type": "wait",
+          "waitTime": 30
+        }
+      ],
+      "triggers": [],
+      "updateTs": "1597712087000"
+    }
+  ]
+}
